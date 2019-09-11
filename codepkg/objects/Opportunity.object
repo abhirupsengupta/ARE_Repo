@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Has_Detail_Quote__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>The field is used to  validate  for Opportunity stages  later than &apos;Propose&apos; can be updated only when opportunity has detailed quote set as Primary</description>
+        <externalId>false</externalId>
+        <label>Has Primary Detailed Quote</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>
